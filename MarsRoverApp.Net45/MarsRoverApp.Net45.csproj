@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper\ScreenHelper.cs" />
+    <Compile Include="Helper\VehicleHelper.cs" />
+    <Compile Include="Model\Enum\Direction.cs" />
+    <Compile Include="Model\Factories\VehicleFactory.cs" />
+    <Compile Include="Model\Implementation\Plateau.cs" />
+    <Compile Include="Model\Implementation\RoboticRover.cs" />
+    <Compile Include="Model\IVehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
